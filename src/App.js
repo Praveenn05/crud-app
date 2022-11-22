@@ -8,6 +8,7 @@ import { GlobalProvider } from './Context/GlobalState';
 
 
 function Appinit() {
+  
   let routes = useRoutes([
     { path: "/", element: <Home /> },
     { path: "/add", element: <AddUser /> },

@@ -12,7 +12,6 @@ function Appinit() {
     { path: "/", element: <Home /> },
     { path: "/add", element: <AddUser /> },
     { path: "/edit/:id", element: <EditUser /> },
-
   ]);
   return routes;
 
